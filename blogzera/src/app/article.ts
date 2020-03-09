@@ -1,7 +1,7 @@
 export class Article {
     id: number;
-    title: '';
-    key: '';
+    title = '';
+    key = '';
     date: Date = new Date();
     content = '';
     description = '';
