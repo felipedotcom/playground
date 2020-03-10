@@ -13,7 +13,7 @@ export class ArticleService {
 
   }
 
-  getArticle(): Observable<Article[]>{
+  getArticles(): Observable<Article[]>{
     const articles: Article[] = ARTICLES
     return of(articles) 
   }

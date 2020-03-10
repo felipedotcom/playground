@@ -12,7 +12,7 @@
             {{ article.date.toDateString() }}
           </div>
           <p [innerHtml]='article.description'></p>
-          <a href="#" class="continue-reading">Leia mais</a>
+          <a routerLink='/{{ article.key }}' class="continue-reading">Leia mais</a>
       </div>
     </div>
   </div>

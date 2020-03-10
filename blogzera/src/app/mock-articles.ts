@@ -17,6 +17,6 @@ export const ARTICLES: Article[] = [
         description: "Meu segundo artigo, leia :)",
         key: 'my-second-article',
         date: new Date(),
-        imageUrl: 'https://www.memesmonkey.com/images/memesmonkey/55/550b4a066a04e332793a78d829ee04a7.jpeg'
+        imageUrl: 'https://i.pinimg.com/236x/d1/07/17/d107178c10a908b3ec8aae3082f6dd58.jpg'
     }
 ]
