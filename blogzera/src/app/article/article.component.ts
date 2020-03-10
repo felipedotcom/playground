@@ -24,7 +24,7 @@ export class ArticleComponent implements OnInit {
       this.articleService.getArticle(key).subscribe(
         article => {
           if(article === undefined){
-            this.router.navigateByUrl('')
+            this.router.navigateByUrl('404')
             return
           }
           this.article = article
