@@ -3,3 +3,10 @@ body {
     max-width: 800px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.meta-info {
+    color: gray;
+    margin-top: -20px;
+    font-size: 14px;
+
+}
