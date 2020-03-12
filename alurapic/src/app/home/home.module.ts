@@ -1,9 +1,8 @@
-import { Component } from "@angular/core";
+import { NgModule } from "@angular/core";
+import { SignInCompoenent } from './signin/signin.component';
 
-@Component({
-    templateUrl: './signin.component.html'
+@NgModule({
+    declarations: [ SignInCompoenent ]
 })
 
-export class SignInComponent {
-
-}
+export class HomeModule{}
