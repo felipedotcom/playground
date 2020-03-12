@@ -9,7 +9,7 @@ import { PhotoListResolver } from './photo-list/photo-list.resolver';
 
 
 const routes: Routes = [
-    {path: '', component: SignInCompoenent },
+    {path: '/', component: SignInCompoenent },
     {path: 'user/:userName', 
     component: PhotoListComponent,
     resolve: {

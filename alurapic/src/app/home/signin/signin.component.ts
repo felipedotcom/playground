@@ -1,7 +1,6 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
     templateUrl: './signin.component.html'
 })
-
-export class SignInCompoenent{ }
+export class SignInComponent { }
